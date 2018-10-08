@@ -33,7 +33,7 @@ zle -N edit-command-line
 
 # allow v to edit the command line (standard behaviour)
 autoload -Uz edit-command-line
-bindkey -M vicmd 'v' edit-command-line
+# bindkey -M vicmd 'v' edit-command-line
 
 # define widget function
 function zle-toggle-mode(){
